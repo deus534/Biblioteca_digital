@@ -1,0 +1,52 @@
+Versión 1.0
+1) Realizar una función que lea un archivo de texto y genere un vector de strings, donde cada
+string es una línea del programa. El último elemento del vector será un NULL.
+2) Realizar una función que valide un string que solo contenga como símbolos los números y la
+coma.
+3) Realizar una función que reciba un string de números separados por coma y arme un vector
+con los mismos. Deberá, además de generar el vector, devolver la cantidad de elementos que
+posee.
+4) Realizar una función que reciba un vector de enteros y su longitud y calcule el promedio. Una
+vez calculado el promedio, los muestra por pantalla y finaliza.
+5) Realizar un programa que reciba por argumento de main el nombre de un archivo de texto y
+luego llame a la función del punto 1.
+Con el vector armado, comenzará a recorrerlo elemento por elemento, y para cada elemento
+utilizará la función del punto 2. En caso que su resultado sea exitoso, llamará a la función del
+punto 3.
+Por último disparará un thread llamando a la función del punto 4.
+El programa principal, luego de disparar todos los threads, esperará 15 segundos y finalizará.
+Upgrade a versión 1.1
+1) Modificar la función del punto 4 de la versión 1.0 para que cumpla con el siguiente
+requerimiento:
+Realizar una función que reciba un vector de enteros y su longitud y calcule el promedio. El
+mismo será devuelto por retorno de la función. Una vez calculado el promedio y antes de
+retornar, deberá esperar 10 segundos.
+2) Modificar la función del punto 5 de la versión 1.0 para que cumpla con el siguiente
+requerimiento:
+Realizar un programa que reciba por argumento de main el nombre de un archivo de texto y
+luego llame a la función del punto 1.
+Con el vector armado, comenzará a recorrerlo elemento por elemento, y para cada elemento
+utilizará la función del punto 2. En caso que su resultado sea exitoso, llamará a la función del
+punto 3.
+Por último disparará un thread llamando a la función del punto 4.
+Finalizado el lanzamiento de todos los thread, el programa principal se quedará esperando su
+finalización y mostrará por pantalla el promedio del vector correspondiente a cada thread.
+Upgrade a versión 1.2
+1) Modificar la función del punto 4 de la versión 1.1 para que cumpla con el siguiente
+requerimiento:
+Realizar una función que reciba un vector de enteros y su longitud y calcule el promedio.
+Además recibirá la dirección de un vector de floats y un nro de orden. El promedio calculado
+deberá ser almacenado en la posición (orden) del vector de floats. Una vez cargado el
+promedio y antes de retornar, deberá esperar 10 segundos.
+2) Modificar la función del punto 2 de la versión 1.1 para que cumpla con el siguiente
+requerimiento:
+Realizar un programa que reciba por argumento de main el nombre de un archivo de texto y
+luego llame a la función del punto 1.
+Con el vector armado, comenzará a recorrerlo elemento por elemento, y para cada elemento
+utilizará la función del punto 2. En caso que su resultado sea exitoso, llamará a la función del
+punto 3.
+Por último disparará un thread llamando a la función del punto 4.
+Luego del lanzamiento de todos los thread, el programa principal se quedará esperando la
+finalización de todos los threads.
+A partir de este momento, programa presentará por pantalla todos los promedios calculados y
+finalizará.

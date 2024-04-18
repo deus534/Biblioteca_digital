@@ -1,0 +1,26 @@
+Realizar un programa para el análisis de los datos obtenidos en distintas estaciones
+meteorológicas.
+Para ello, deberá leer un archivo del tipo texto que contendrá la información correspondiente a
+las estaciones y las temperaturas registradas y armar un vector de estructuras con dicha
+información.
+A continuación ordenará los elementos de ese vector en forma ascendente a partir del código de
+estación.
+Luego, deberá leer un segundo archivo binario que contendrá la información correspondiente a
+las coordenadas de cada estación y agregar dicha información a las estaciones
+correspondientes.
+Por último tomará dos valores recibidos por argumento de main hemisferio respecto del ecuador
+y hemisferio del meridiano de Greenwich (obligatorios) y generará un archivo de texto llamado
+filtro.txt con los nombres de las estaciones que se encuentren en ese cuadrante (un renglón por
+cada estación). Ej. Estaciones del cuadrante noreste.
+Los datos que posee de las estaciones son:
+Un vector de chars de 7 elementos correspondiente al nombre (tres letras y tres números)
+Un entero correspondiente al código de la estación.
+Un elemento del tipo coordenadas.
+Un elemento correspondiente a una dirección de memoria de un vector de elementos enteros
+El elemento del tipo coordenadas está constituido por dos elementos del tipo float
+El archivo de texto de las estaciones posee una estación por línea y figuran los siguientes datos:
+<nombre>,<codigo>, <temp1>, <temp2>,.......
+Dado que el vector de temperaturas es de tamaño variable, deberá colocar un valor -274 como
+último elemento del vector.
+Los datos correspondientes al archivo de coordenas tienen el codigo de estación (int), la latitud
+(float) y la longitud (float).
